@@ -1,1 +1,1 @@
-# Sirma-Academy-C--Septermber-2024
+# Sirma-Academy-CSharp-Septermber-2024
