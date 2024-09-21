@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Days of the week", "..\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Even or odd", "..\06. Even or odd\06. Even or odd.csproj", "{744F70BB-3E36-47C8-9F52-A940849A850F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Speed", "..\07. Speed\07. Speed.csproj", "{83338E5C-9553-4A3C-AB2D-86D060FE2331}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Alarm after 15 minutes", "..\08. Alarm after 15 minutes\08. Alarm after 15 minutes.csproj", "{BFC34C1D-A31C-4347-9FFF-24D3C74D5209}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{744F70BB-3E36-47C8-9F52-A940849A850F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{744F70BB-3E36-47C8-9F52-A940849A850F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{744F70BB-3E36-47C8-9F52-A940849A850F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83338E5C-9553-4A3C-AB2D-86D060FE2331}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83338E5C-9553-4A3C-AB2D-86D060FE2331}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83338E5C-9553-4A3C-AB2D-86D060FE2331}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83338E5C-9553-4A3C-AB2D-86D060FE2331}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFC34C1D-A31C-4347-9FFF-24D3C74D5209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC34C1D-A31C-4347-9FFF-24D3C74D5209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC34C1D-A31C-4347-9FFF-24D3C74D5209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC34C1D-A31C-4347-9FFF-24D3C74D5209}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
