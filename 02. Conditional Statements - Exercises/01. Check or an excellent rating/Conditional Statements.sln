@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. Simple Calculator", "..
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. Vegetable market", "..\13. Vegetable market\13. Vegetable market.csproj", "{A1FA3309-226F-47EC-ADD5-903D0DFBD80B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Holiday", "..\14. Holiday\14. Holiday.csproj", "{3FC4AC57-F831-4B56-B73C-4CD427CE688D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{A1FA3309-226F-47EC-ADD5-903D0DFBD80B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1FA3309-226F-47EC-ADD5-903D0DFBD80B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1FA3309-226F-47EC-ADD5-903D0DFBD80B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FC4AC57-F831-4B56-B73C-4CD427CE688D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FC4AC57-F831-4B56-B73C-4CD427CE688D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FC4AC57-F831-4B56-B73C-4CD427CE688D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FC4AC57-F831-4B56-B73C-4CD427CE688D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
