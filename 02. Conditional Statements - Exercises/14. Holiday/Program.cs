@@ -16,6 +16,7 @@ while (season.ToLower() != "winter" && season.ToLower() != "summer")
 
 double spent = 0.0;
 string rest = string.Empty;
+string country = string.Empty;
 
 if (budget <= 100)
 {
@@ -29,9 +30,8 @@ if (budget <= 100)
         spent = budget * 0.3; 
         rest = "Camp";
     }
-      
-    Console.WriteLine("Somewhere in Bulgaria");
-    Console.WriteLine($"{rest} - {spent:F2}");
+
+    country = "Bulgaria";
 }
 else if (budget > 100 &&  budget <= 1000)
 {
@@ -46,13 +46,14 @@ else if (budget > 100 &&  budget <= 1000)
         rest = "Camp";
     }
 
-    Console.WriteLine("Somewhere in Europe");
-    Console.WriteLine($"{rest} - {spent:F2}");
+    country = "Europe";
 }
 else
 {
     spent = budget * 0.9;
-
-    Console.WriteLine("Somewhere in Asia");
-    Console.WriteLine($"Hotel - {spent:F2}");
+    rest = "Hotel";
+    country = "Asia";
 }
+
+Console.WriteLine($"Somewhere in {country}");
+Console.WriteLine($"{rest} - {spent:F2}");
