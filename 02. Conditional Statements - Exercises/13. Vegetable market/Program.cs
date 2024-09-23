@@ -21,18 +21,17 @@
 };
 
 string vegetable = Console.ReadLine();
-string weekday = Console.ReadLine(); 
+string weekday = Console.ReadLine().ToLower(); 
 int amount = int.Parse(Console.ReadLine());
+double output = 0.0;
 
-switch (weekday.ToLower())
+if (weekday == "monday" || weekday == "tuesday" || weekday == "wednesday" || weekday == "thursday" || weekday == "friday")
 {
-    case "monday": Console.WriteLine($"{products["Weekday"][vegetable] * amount:F2}"); ; break;
-    case "tuesday": Console.WriteLine($"{products["Weekday"][vegetable] * amount:F2}"); break;
-    case "wednesday": Console.WriteLine($"{products["Weekday"][vegetable] * amount:F2}"); break;
-    case "thursday": Console.WriteLine($"{products["Weekday"][vegetable] * amount:F2}"); break;
-    case "friday": Console.WriteLine($"{products["Weekday"][vegetable] * amount:F2}"); break;
-    case "saturday": Console.WriteLine($"{products["Weekend"][vegetable] * amount:F2}"); break;
-    case "sunday": Console.WriteLine($"{products["Weekend"][vegetable] * amount:F2}"); break;
-    default: Console.WriteLine("error"); break;
+    output = products["Weekday"][vegetable] * amount;
+}
+else if (weekday == "saturday" || weekday == "sunday")
+{
+    output = products["Weekend"][vegetable] * amount;
 }
 
+Console.WriteLine($"{output:F2}");
